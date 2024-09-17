@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ race()
+comment1.params=
+comment1.target=boolean\ hasWinner()
+comment2.params=
+comment2.target=void\ ducksRun()
+comment3.params=t
+comment3.target=void\ addTDuck(TiringDuck)
+comment4.params=r
+comment4.target=void\ addRDuck(RandomDuck)
+numComments=5
