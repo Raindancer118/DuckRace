@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class DuckRace {
+
 	private final int RACE_DISTANCE = 100;
 	private ArrayList<IDuck> ducks = new ArrayList<>();
 
@@ -24,10 +25,9 @@ public class DuckRace {
 				}
 			}
 		}
-
 		if (!bestDucks.isEmpty()) {
-			for (IDuck duck: bestDucks) {
-				System.out.println(duck.showData());
+			for (IDuck r: bestDucks) {
+				System.out.println(r.showData());
 			}
 		}
 
@@ -35,12 +35,12 @@ public class DuckRace {
 	}
 
 	private void ducksRun() {
-		for (IDuck iDuck : ducks) {
-			iDuck.run();
+		for (IDuck duck : ducks) {
+			duck.run();
 		}
 	}
 
-	public void addDuck(IDuck duck) {
+	public void addDuck (IDuck duck) {
 		ducks.add(duck);
 	}
 }

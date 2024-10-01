@@ -1,26 +1,18 @@
-import java.util.Random;
-
-public class SittingDuck implements IDuck {
-    private static final int SPEED = 0;
+public class SittingDuck implements IDuck{
     private final String name;
-    private int distance=0;
-
-    private final Random random = new Random();
     public SittingDuck(String name) {
         super();
         this.name = name;
     }
-    public void run() {
-        distance += SPEED;
-    }
-    public String getName() {
-        return name;
-    }
     public int getDistance() {
-        return distance;
+        return 0;
+    }
+    public void run() {
+    }
+    public void runSpecial(){
+
     }
     public String showData() {
-        return name+" Distance"+distance;
+        return name+" Distance "+0;
     }
-
 }
